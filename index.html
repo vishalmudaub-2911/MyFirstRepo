@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Local Market </title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional: your own tweaks -->
+    <link rel="stylesheet" href="bootstrap-custom.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">The Local Market</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#signup">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="py-5">
+      <div class="container">
+        <div class="hero-box p-4 p-md-5 rounded-3">
+          <h1 class="display-5 fw-bold">Savanne Village Halls Welcomes you to Mini Market</h1>
+          <p class="fs-5">
+            Local Merchant plants and sells own Vegetables‑Freshly produced for YOU!
+          </p>
+          <div class="d-flex gap-2 flex-wrap">
+            <button type="button" class="btn btn-outline-success">Vegetables</button>
+            <a class="btn btn-info" href="#features">Fruits</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="py-4">
+      <div class="container">
+        <div class="alert alert-info" role="alert">
+          <strong>From small planters</strong> → <strong>To all Enterprise</strong>.
+        </div>
+
+        <h2 class="h3 mb-3">Presenting our Local Enterprises</h2>
+
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5 card-title">Real Fresh Fruits</h3>
+                <p class="card-text">We import and distribute a wide range of fruits including oranges, apples, pears, and more, available at 6 supermarkets and 6 markets throughout the island.</p>
+                <span class="badge text-bg-success">Click to purchase</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5 card-title">Farm Basket CO LTD</h3>
+                <p class="card-text">Our Farm provides you with Vegetable found in Mauritius. It also provides you with fresh, frozen, pickled, and other methods in which vegetables and fruits can process.</p>
+                <span class="badge text-bg-success">Click to purchase</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="h5 card-title">Fresh NUTS</h3>
+                <p class="card-text">Over the years, from a regional supplier we gradually expanded our local foot print to various local markets. Our world class range of products which are categorized by its unique Flavors complimented by Premium Retail Packaging.</p>
+                <span class="badge text-bg-success">Click to purchase</span>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="signup" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h2 class="h4">Register Now</h2>
+                <p class="text-muted">First come, first serve.</p>
+
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" class="form-control" type="text" placeholder="Your name" />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Whatsapp Number</label>
+                    <input id="email" class="form-control" type="email" placeholder="Phone Number" />
+                  </div>
+
+                    <div class="mb-3">
+                    <label for="email" class="form-label">Address</label>
+                    <input id="email" class="form-control" type="email" placeholder="Your Location" />
+                  </div>
+
+                  <!--div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input id="password" class="form-control" type="password" placeholder="Your password" />
+                  </div-->
+
+                  <button class="btn btn-primary w-100" type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 border-top">
+      <div class="container">
+        <p class="mb-0">Made in Morice • Call us on 999 for any info on the event.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
